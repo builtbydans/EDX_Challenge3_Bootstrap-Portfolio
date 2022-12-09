@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,17 +12,27 @@ body {
   background-color: white;
 }
 
+/* HERO SECTION */
+
 #hero {
   background-color: white;
 }
+
+/* WORK SECTION  */
 
 #work {
   background-color: rgb(241, 241, 241);
   padding: var(--sectionPadding);
 }
 
+/* SKILLS SECTION */
+
 #skills {
   padding: var(--sectionPadding);
+}
+
+#skills h3 {
+  text-align: center;
 }
 
 .skills-icons {
@@ -32,7 +44,17 @@ body {
   margin-top: 2rem;
 }
 
+.list-group-item:hover {
+  transform: scale(1.2);
+}
+
+/* ABOUT/CONTACT SECTION */
+
+/* FOOTER SECTION  */
+
 footer {
   background-color: rgb(18, 18, 18);
   padding: var(--sectionPadding);
 }
+
+/* TEST PUSH */
