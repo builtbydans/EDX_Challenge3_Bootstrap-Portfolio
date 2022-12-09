@@ -6,6 +6,7 @@ html {
 
 :root {
   --sectionPadding: 75px 0px;
+  --evenBgColor: rgb(241, 241, 241);
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 /* WORK SECTION  */
 
 #work {
-  background-color: rgb(241, 241, 241);
+  background-color: var(--evenBgColor);
   padding: var(--sectionPadding);
 }
 
@@ -50,11 +51,14 @@ body {
 
 /* ABOUT/CONTACT SECTION */
 
+#about {
+  background-color: var(--evenBgColor);
+  padding: var(--sectionPadding);
+}
+
 /* FOOTER SECTION  */
 
 footer {
   background-color: rgb(18, 18, 18);
   padding: var(--sectionPadding);
 }
-
-/* TEST PUSH */
