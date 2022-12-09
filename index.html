@@ -1,13 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
-  <title>Bootstrap Portfolio</title>
-</head>
-<body>
-  <h1>This is my first commit.</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>My Bootstrap Portfolio</title>
+  </head>
+  <body>
+
+
+    <header class="bg-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Danish Shafi</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="jumbotron jumbotron-fluid container" id="hero">
+          <div class="row">
+
+            <div class="col-md-5 col-sm">
+              <img src="/images/avatar.png" alt="cartoon-image">
+            </div>
+
+            <div class="col-md-7 col-sm d-flex flex-column justify-content-center">
+              <h1>Danish Shafi</h1>
+              <h2>Frontend Web Developer and Web Designer</h2>
+              <p class="lead">
+                Once a Digital Media Analyst now turned ambitious Front End web developer, combining
+                my passion for clean user-interface design with good standards of code practice. In what little
+                spare time I have these days, I spend a good chunk of it on my MSc Computer Sciences at the University
+                of York and learning the ins and outs of Cyber Security - in particular, pentesting.
+                Also, I have a <i>thing</i> for mechanical keyboards.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <section id="work">
+        <div class="container">
+          <h3>Work</h3>
+          <div class="row">
+            <article class="col-4">
+              <div class="card" style="width: 100%;">
+                <img src="https://placehold.co/600x500" class="card-img-top" alt="placeholder-image-grey-bg">
+                <div class="card-body">
+                  <h4 class="card-title">Project One</h4>
+                  <p class="card-text">
+                    Project One was built using HTML5, CSS3 and Bootstrap. The pages
+                    were designed using Figma and were also wireframed as prototypes.
+                    The client desired a specific type of website that had a different
+                    appearance on mobile, to reflect their company motto.
+                  </p>
+                  <a href="#" class="btn btn-dark">To Project →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-4">
+              <div class="card">
+                <img src="https://placehold.co/600x500" class="card-img-top" alt="placeholder-image-grey-bg">
+                <div class="card-body">
+                  <h4 class="card-title">Project Two</h4>
+                  <p class="card-text">
+                    Project Two was built using HTML5, CSS3 and Bootstrap. The pages
+                    were designed using Figma and were also wireframed as prototypes.
+                    The client was interested in different colour schemes and wanted
+                    the page to change colours as the user scrolled.
+                  </p>
+                  <a href="#" class="btn btn-dark">To Project →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-4">
+              <div class="card">
+                <img src="https://placehold.co/600x500" class="card-img-top" alt="placeholder-image-grey-bg">
+                <div class="card-body">
+                  <h4 class="card-title">Project Three</h4>
+                  <p class="card-text">
+                    Project Three was built React and JavaScript. The pages
+                    were designed using Figma and were also wireframed as prototypes.
+                    The client needed a full front-end web application that was to
+                    become the UI for their specialised database offering.
+                  </p>
+                  <a href="#" class="btn btn-dark">To Project →</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </body>
 </html>
