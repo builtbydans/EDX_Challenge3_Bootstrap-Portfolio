@@ -23,6 +23,15 @@ body {
   padding: var(--sectionPadding);
 }
 
+.skills-icons {
+  font-size: 150px;
+}
+
+.list-group-item {
+  border: none;
+  margin-top: 2rem;
+}
+
 footer {
   background-color: rgb(18, 18, 18);
   padding: var(--sectionPadding);
