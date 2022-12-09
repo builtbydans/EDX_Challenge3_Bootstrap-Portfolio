@@ -61,4 +61,5 @@ body {
 footer {
   background-color: rgb(18, 18, 18);
   padding: var(--sectionPadding);
+  color: white;
 }
