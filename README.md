@@ -12,7 +12,7 @@ The live project can be found here:
 
 ## Website Mockup
 
-![screenshot-of-image](https://github.com/builtbydans/EDX_Challenge2_My_First_Portfolio/blob/main/assets/images/website.mockup.png)
+![screenshot-of-image](https://github.com/builtbydans/EDX_Challenge2_My_First_Portfolio/blob/main/assets/images/website-mockup.png)
 
 ### HTML
 This project provided no starter code, so a standard HTML boilerplate was used to set the foundation of the page. This also included relative CDN links to Bootstrap and an icons CDN. There was a relevant title given and the page was generated to use semantic HTML elements and sections. Most of the styling was using Bootstrap utility classes.
